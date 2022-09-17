@@ -2,7 +2,7 @@
 - hosts: all
   becoms: yes
   tasks:
-  - name: i want to install webserver
+  - name: i want to install tree 
     apt:
      name: tree 
      state: present 
